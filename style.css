@@ -1,0 +1,41 @@
+.page-top {
+	background-color: none;
+	background-image: url("https://images.unsplash.com/photo-1565734777784-6e89609ed871?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1949&q=80");
+	background-repeat: no-repeat;
+ 	background-attachment: scroll;
+ 	background-position: top; 
+	background-size: 2000px;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	color:rgb(0, 0, 0);
+	border-radius: 0 !important;
+}
+.text{
+  text-align: center;
+}
+.col-web {
+  padding-right: 365px;
+}
+.col-web2 {
+  padding-right: 320px;
+}
+.col-web3 {
+  padding-right: 0px;
+}
+.word{
+  text-align: center;
+}
+.bg-light{
+  background-image: linear-gradient(black,black);
+  color:white;
+}
+.navbar-brand {
+    color: 
+white;
+}
+.nav{
+  color:white;
+}
+footer{
+  margin-bottom:30px;
+}

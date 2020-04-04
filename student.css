@@ -1,0 +1,120 @@
+.page-top {
+	background-color: none;
+	background-image: url("https://images.unsplash.com/photo-1547087414-31f7e98582f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+	background-repeat: no-repeat;
+ 	background-attachment: scroll;
+ 	background-position: top; 
+	background-size: 1500px;
+	height: 50vh;
+	font-family: 'Poppins', sans-serif;
+	color:#fff;
+	border-radius: 0 !important;
+}
+.stud {
+  padding-left: 275px;
+}
+.flip-card {
+  margin: 1%;
+  /*width + margin-left + margin-right = 50%*/
+  height: 200px;
+  width: 200px;
+  position: relative;
+  perspective: 50vw;
+  float: left;
+}
+.flip-card .front,
+.flip-card .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  transition: 0.3s;
+  backface-visibility: hidden;
+  border: 2px solid #333;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+}
+
+.flip-card:hover .front {
+  transform: rotateY(180deg) scale(0.5);
+}
+
+.flip-card .back {
+  background: #333;
+  color: #fff;
+  overflow: hidden;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  transform: rotateY(180deg) scale(0.5);
+}
+
+.flip-card:hover .back {
+  transform: rotateY(360deg) scale(1);
+}
+td {
+ border:1px solid black;
+ border-right:none;
+ border-bottom:none;
+}
+
+td:nth-last-child(1) {
+ border-right:1px solid black;
+}
+
+table {
+ border-bottom:1px solid black;
+ margin-left:auto; margin-right:auto;
+}
+.textOverImage{
+    position:relative;
+    width:100px;
+    height:100px;
+    float:left;
+    margin:4px;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+  }
+  .textOverImage:hover{
+    background-size:110%;
+    
+  }
+  .textOverImage:after{
+    position:absolute;
+    top:90%;
+    bottom:0;
+    left:0;
+    right:0;
+    white-space:pre-wrap;
+    overflow:hidden;
+    background-color:rgba(0,0,0,0.3);
+    color:#fff;
+    padding:0 8px;
+    content:attr(data-text);
+    transition:0.5s;
+    
+  }
+  .textOverImage:hover:after{
+    top:0;
+    padding:8px;
+    background-color:rgba(0,0,0,0.6);
+    
+  }
+  .textOverImage:first-line{
+    color:#fff;
+    font-weight:bold;
+    font-size:1.5em;
+}
+  .centerbackleft{
+    padding-left:40%;
+}
+.centerbackright{
+    padding-left:5%;
+}
